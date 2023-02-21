@@ -214,7 +214,7 @@ ul.socials:hover path{
 } 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:600px) {
   body {
     display: flex;
     flex-direction: column;
@@ -262,7 +262,7 @@ ul.socials:hover path{
   }
 
   .second-ios-link,
-  .second-mac-link {
+  .second-mac-link{
     padding: 13px 70px;
   }
   footer .row {
