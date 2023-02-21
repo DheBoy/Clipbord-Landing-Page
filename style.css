@@ -1,0 +1,293 @@
+@import url("https://fonts.googleleapis.com/css2?family=Bai+Jamjuree:weights@400;600&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo-svg {
+  position: relative;
+  top: 30%;
+  left: 45%;
+}
+
+.first-paragraph {
+  padding-bottom: 30px;
+  text-indent: 5px;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  background-image: url("images/bg-header-desktop.png");
+  background-position: center;
+  background-size: cover;
+  height: 230px;
+  width: 100%;
+}
+.sub-head {
+  margin: 25px 0px 15px 0px;
+}
+p {
+  color: hsl(201, 11%, 66%);
+  font-family: "Bai jamjuree", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Bai jamjuree", sans-serif;
+  color: hsl(210, 10%, 33%);
+}
+.second-header {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.third-header {
+  text-align: center;
+  margin: 10px 0px 25px 0px;
+  font-size: 30px;
+}
+.introduction {
+  text-align: center;
+}
+.first-download-buttons {
+  margin: 50px 0px 150px 0px;
+}
+.second-download-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.ios-link {
+  color: white;
+  padding: 13px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: small;
+  margin: 5px;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 1px 7px 10px hsl(171, 80%, 83%);
+}
+
+.mac-link {
+  color: white;
+  padding: 13px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: small;
+  margin: 5px;
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 1px 7px 10px hsl(233, 72%, 79%);
+}
+
+.second-ios-link {
+  color: white;
+  padding: 13px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: small;
+  margin: 5px;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 1px 7px 10px hsl(171, 80%, 83%);
+}
+
+.second-mac-link {
+  color: white;
+  padding: 13px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: small;
+  margin: 5px;
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 1px 7px 10px hsl(233, 72%, 79%);
+}
+
+.services {
+  line-height: 27px;
+  padding-top: 90px;
+  font-size: small;
+}
+.first-image {
+  align-self: center;
+  height: auto;
+  margin-left: -30px;
+}
+.first-image-and-services {
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  gap: 90px;
+}
+.quick-search,
+.icloud-sync,
+.complete-history {
+  margin-bottom: 40px;
+}
+
+.third-image-and-info {
+  text-align: center;
+}
+
+.second-image {
+  margin-top: 70px;
+}
+
+.fourth-header,
+.fifth-header {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.fourth-header-and-info {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.blacklist,
+.plain-text-snippets,
+.sneak-preview,
+.first-paragraph,
+.second-paragraph,
+.third-paragraph,
+.fifth-paragraph {
+  line-height: 30px;
+}
+
+.workflow {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  justify-content: center;
+}
+.partners {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 100px;
+}
+.fifth-header-and-info {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.secong-logo {
+  position: relative;
+  top: 15px;
+  left: -90px;
+}
+footer {
+  background-color: hsla(180, 13%, 91%, 0.59);
+  line-height: 40px;
+}
+
+footer .row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10%;
+}
+
+footer .row .col li {
+  list-style: none;
+  position: relative;
+  top: 20px;
+}
+
+footer .row .col li a {
+  color: hsl(0, 0%, 62%);
+  position: relative;
+  left: -50px;
+}
+
+ul.socials {
+  display: flex;
+  gap: 35%;
+  position: relative;
+  top: 10px;
+}
+
+footer .row .col li a:hover{
+  color:hsl(171, 66%, 44%);
+}
+
+ul.socials:hover path{
+  fill:hsl(171, 66%, 44%);
+} 
+
+
+@media screen and (max-width: 375px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-svg {
+    position: relative;
+    top: 30%;
+    left: 35%;
+  }
+  .first-download-buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }
+  .second-download-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-image {
+    align-self: center;
+    width: 250px;
+  }
+  .first-image-and-services {
+    display: block;
+    text-align: center;
+  }
+  .second-image {
+    width: 350px;
+    margin-bottom: 30px;
+  }
+  .workflow,
+  .partners {
+    display: block;
+  }
+
+  .partners {
+    line-height: 150px;
+  }
+  .second-header,
+  .third-header,
+  .fourth-header,
+  .fifth-header {
+    font-size: 30px;
+  }
+
+  .second-ios-link,
+  .second-mac-link {
+    padding: 13px 70px;
+  }
+  footer .row {
+    display: flex;
+   flex-direction: column;
+   position: relative;
+   align-items: center;
+  align-content: center;
+  }
+
+ul .social{
+  align-items: center;
+}
+svg.second-logo {
+left: 0px;
+  }
+  .row{
+    margin: 10%;
+   }
+
+ul.socials {
+  display: flex;
+  gap: 35%;
+  position: relative;
+  top: 20px;
+  right:60px;
+}
+}
